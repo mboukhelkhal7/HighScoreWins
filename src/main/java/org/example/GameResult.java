@@ -36,11 +36,11 @@ public class GameResult {
 
     public void getWinner() {
         if (scoreA > scoreB){
-            System.out.println("the winners is" + teamA);
+            System.out.println("the winner is " + teamA);
         } else if (scoreB > scoreA){
-            System.out.printf("this winner is %s", teamB);
+            System.out.printf("this winner is " + teamB);
         }else{
-            System.out.println("the game is a draw");
+            System.out.println("the game is a draw ");
         }
 
 
